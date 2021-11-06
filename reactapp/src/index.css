@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  width: 100vw;
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to top, #eeff00, #ffee00);
+  border-radius: 200px;
+}
+
+
+.cart-table tr td{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cart {
+  color:rgb(19, 3, 3);
+}
+
+.image-td{
+  width: 50px;
+}
+
+.cart-action {
+  flex: 1 1 20rem;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.cart-image {
+  flex: 1 2;
+}
+.cart-name {
+  flex: 2 1;
+}
+.cart-price {
+  flex: 1 1;
+  font-size: 1.5rem;
+}

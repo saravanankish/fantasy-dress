@@ -1,0 +1,12 @@
+.content-home{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 110px;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 425px){
+    .content-home{
+        padding: 0 20px;
+    }
+}

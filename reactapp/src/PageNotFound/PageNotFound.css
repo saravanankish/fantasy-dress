@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    text-align: center;
+}
+
+.title{
+    font-size: 40px;
+}
+
+.homePageButton {
+    margin-top: 20px;
+}
+
+
+.fa-frown{
+    font-size: 90px;
+}
+
+@media (max-width: 425px){
+    .container{
+        height: 100vh;
+    }
+}
